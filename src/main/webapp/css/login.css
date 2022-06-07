@@ -1,0 +1,35 @@
+
+body{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: linear-gradient(rgb(253, 246, 89), black);
+}
+
+.card {
+    width: 600px;
+    height: 450px;
+}
+
+.card .card-body {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.card h1 {
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.card .card-body input{
+    width: 400px;
+}
+
+.card .card-body form button{
+    width: 200px;
+    margin-top: 40px;
+}
